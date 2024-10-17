@@ -61,39 +61,8 @@ const Signup = () => {
               />
               <span
                 onClick={togglePasswordVisibility}
-                className="absolute inset-y-0 right-3 flex items-center cursor-pointer"
-              >
-                {showPassword ? (
-                  <svg
-                    className="h-5 w-5 text-gray-500"
-                    fill="none"
-                    stroke="currentColor"
-                    viewBox="0 0 24 24"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth="2"
-                      d="M15 12m0 0A3 3 0 1112 9m3 3v0a3 3 0 100 6m0 0a3 3 0 010-6"
-                    />
-                  </svg>
-                ) : (
-                  <svg
-                    className="h-5 w-5 text-gray-500"
-                    fill="none"
-                    stroke="currentColor"
-                    viewBox="0 0 24 24"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth="2"
-                      d="M12 4.5C7.31 4.5 3.265 8.112 2 12m20 0c-1.265 3.888-5.31 7.5-10 7.5m7-7.5c0-4.267-5-7.5-7-7.5m-7 7.5c0 4.267 5 7.5 7 7.5m3-4.5a3 3 0 01-6 0"
-                    />
-                  </svg>
-                )}
+                className="absolute inset-y-0 right-3 flex items-center cursor-pointer">
+                {showPassword ? "👁️" : "🙈"}
               </span>
             </div>
           </div>
